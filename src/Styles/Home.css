@@ -1,0 +1,113 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #000000;
+    background: -webkit-linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F44369", endColorstr="#3E3B92", GradientType=1 );
+  }
+  
+  .about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: -webkit-linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F44369", endColorstr="#3E3B92", GradientType=1 );
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about h2 {
+    font-size: 80px;
+    color: #95ecb0;
+    height: 50px;
+    
+  }
+  
+  .about .prompt {
+    width: 50%;
+    font-size: 30px;
+  
+    
+  }
+  
+  .skills {
+    background: -webkit-linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F44369", endColorstr="#3E3B92", GradientType=1 );
+    font-size: 35px;
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top:100px;
+    margin-bottom: 100px;
+  }
+  
+  
+  .skills h1 {
+    font-size: 80px;
+    color: #95ecb0;
+    height: 50px;
+    margin: 20px;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+  }
+  
+  .list span {
+    font-size: 43px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .myPic {
+    margin-top: auto;
+    width: 300px;
+    border-radius: 50%;;
+  }
+  
+  @media only screen and (max-width: 900px) {
+
+   
+    .about h2 {
+      font-size: 40px;
+      
+    }
+    .myPic{
+        display: none;
+    }
+  
+    .about .prompt {
+      
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+  
+      
+    }
+    .list {
+      padding: 0;
+
+    }
+  
+    .skills h2 {
+      font-size: 40px;
+      text-decoration: underline;
+    }
+
+    .item {
+      font-size: 20px;
+    }
+  }
