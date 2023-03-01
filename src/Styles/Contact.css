@@ -1,4 +1,4 @@
-.middle{
+.Contact{
     margin-top: 250px;
     margin-bottom: 100px;
     width: 100%;
@@ -10,9 +10,6 @@
     padding-top: 1%;
   }
 
-
-  
-  /*Contact Section*/
   #submitBtn{
     border: none;
     font-weight: bold;

@@ -9,7 +9,8 @@ export const projectList = [
     {
         name: 'Weather Dashboard',
         image: weatherDash,
-        description:'A weather tracker that allows users to search and view a 5 day forecast for a city using the OpenWeatherMap API'
+        description:'A weather tracker that allows users to search and view a 5 day forecast for a city using the OpenWeatherMap API',
+        repo: `https://github.com/JuanSFL/Weather_Dashboard`
     },
     {
         name:'Workday Planner',

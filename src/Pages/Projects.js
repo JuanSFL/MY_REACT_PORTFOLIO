@@ -9,7 +9,7 @@ function Projects() {
         <h1>Here are some Projects I have built!</h1>
           <div className='projectList'>
             {projectList.map((project)=>{
-              return <ProjectItem name={project.name} image={project.image} description={project.description}/>
+              return <ProjectItem name={project.name} image={project.image} description={project.description} repo={project.repo}/>
             })}
           </div>
     </div>

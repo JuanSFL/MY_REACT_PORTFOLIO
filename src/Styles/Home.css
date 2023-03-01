@@ -26,6 +26,7 @@
     font-size: 80px;
     color: #95ecb0;
     height: 50px;
+    margin-bottom: 100px;
     
   }
   
@@ -127,14 +128,17 @@
   
     .skills {
       text-align: center;
-      padding-top: 200px;
-      padding-bottom: 200px;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
     .list {
       padding: 0;
     }
+    .skills h1 {
+      font-size: 40px;
+    }
   
     .skills h2 {
-      font-size: 30px;
+      font-size: 20px;
     }
   }

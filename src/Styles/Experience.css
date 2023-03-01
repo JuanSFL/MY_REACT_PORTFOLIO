@@ -1,0 +1,19 @@
+.Resume {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 100px);
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #000000;
+    background: -webkit-linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F44369", endColorstr="#3E3B92", GradientType=1 );
+}
+
+img {
+    width: 80%;
+    height: 80%;
+}
