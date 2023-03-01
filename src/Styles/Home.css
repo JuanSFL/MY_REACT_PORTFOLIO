@@ -37,23 +37,19 @@
   }
   
   .skills {
+    margin-top: 100px;
+    margin-bottom: 100px;
     width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-  
-
-
+    text-align: center;
     background: -webkit-linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F44369", endColorstr="#3E3B92", GradientType=1 );
-    font-size: 35px;
-    
-    
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
-    
-    margin-top:100px;
-    margin-bottom: 100px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   
   }
   
   
@@ -80,11 +76,12 @@
     border-radius: 50%;;
   }
   
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 300px) {
 
    
     .about h2 {
       font-size: 40px;
+      margin-top: 300px;
       
     }
     .myPic{
@@ -114,5 +111,30 @@
 
     .item {
       font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
     }
   }

@@ -3,7 +3,6 @@
   border: solid;
   position: fixed;
   top: 0;
-  z-index: 9999;
   border: solid ;
   border-radius: 10px;
     width: 100%;
@@ -47,15 +46,16 @@
     font-size: 50px;
   }
   .toggleButton button {
-    margin-right: 20px;
+
     background-color: transparent;
     border: none;
-    color: white;
+    color: #95ecb0;
     cursor: pointer;
   }
   
   #open {
     height: 100vh;
+    position:relative;
   }
   
   #open .links {
