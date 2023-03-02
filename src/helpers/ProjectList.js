@@ -15,27 +15,33 @@ export const projectList = [
     {
         name:'Workday Planner',
         image: planner,
-        description:'A application that helps users keep track of their daily tasks.'
+        description:'A application that helps users keep track of their daily tasks.',
+        repo: `https://github.com/JuanSFL/Work_Day_Planner`
     },
     {
         name:'Social Network Api',
         image: socialApi,
-        description:'A backend application for a social network where users can add friends, share thoughts, and react to other thoughts'
+        description:'A backend application for a social network where users can add friends, share thoughts, and react to other thoughts',
+        repo:`https://github.com/JuanSFL/the-social-network-api`
     },
     {
         name:'My SQL Employee Tracker',
         image: MySQL,
-        description:'A application that helps users keep track of their daily tasks.'
+        description:'A application that helps users keep track of their daily tasks.',
+        repo:`https://github.com/JuanSFL/MySQL_Employee_Tracker`
     },
     {
         name:'Professional Readme Generator',
         image: readmeProject,
-        description:'This command line application helps developers quickly make a readme.md document for their respositories.'
+        description:'This command line application helps developers quickly make a readme.md document for their respositories.',
+        repo:`https://github.com/JuanSFL/Command_Line_App_README-GENERATOR`
     },
     {
         name:'FoodGram',
         image: foodGram,
-        description:'This application takes your location using google maps API and provides photos and information to local restaurants in your area!'
+        description:'This application takes your location using google maps API and provides photos and information to local restaurants in your area!',
+        repo:`https://github.com/bulkacity/FoodGram`
+
     },
     
 ]
