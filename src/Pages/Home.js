@@ -12,7 +12,7 @@ function Home() {
         <div className='prompt'>
 
           <p>
-            I'm Fullstack developer, and Lifelong learner. I was originally born in El-Salvador and moved to the United States in 2003. After graduating highschool, I began attending Broward College persuing a biology degree, but along the way, I found a passion for computers and decided give coding a shot! Turns out that I love it!!! Thanks for visiting my portfolio, and I hope you Stay a while.
+            I'm a Fullstack developer, and Lifelong learner. Born in El-Salvador and moved to the United States in 2003. After graduating highschool, I began attending Broward College persuing a biology degree, but along the way, I found a passion for computers and decided give coding a shot! Turns out that I love it!!! Thanks for visiting my portfolio, and I hope you Stay a while.
           </p>
           
         </div>
