@@ -3,7 +3,8 @@ import planner from '../Assets/workdayplanner.png'
 import socialApi from '../Assets/socialApi.png'
 import MySQL from '../Assets/mysql_project.png'
 import readmeProject from '../Assets/readmeProject.png'
-import foodGram from '../Assets/foodgram.png'
+
+import codeGenie from '../Assets/codeGenie.png'
 
 export const projectList = [
     {
@@ -37,10 +38,10 @@ export const projectList = [
         repo:`https://github.com/JuanSFL/Command_Line_App_README-GENERATOR`
     },
     {
-        name:'FoodGram',
-        image: foodGram,
-        description:'This application takes your location using google maps API and provides photos and information to local restaurants in your area!',
-        repo:`https://github.com/bulkacity/FoodGram`
+        name:'Code Genie',
+        image: codeGenie,
+        description:'Social media application that lets users post and answer questions with a twist that ulitizes AI to answer questions on demand',
+        repo:`https://github.com/JuanSFL/Code_Genie`
 
     },
     
